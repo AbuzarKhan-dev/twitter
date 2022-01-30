@@ -1,0 +1,386 @@
+.home_page {
+   max-width: 1440px;
+}
+
+.home_page_content {
+  display: flex;
+  width: 100%;
+}
+
+/* ---> Sidebar <---- */
+
+.sidebar_container {
+  width: 24.5%;
+  height: 100vh;
+  border-right: 1px solid #eff3f4;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.sibebar_menu {
+  width: 251px;
+  padding: 0px 12px;
+  overflow-x: auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.sidebar_icons {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.home_logo {
+  min-height: 52px;
+  max-width: 52px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2px 0px;
+}
+
+.h_icon_div {
+  width: 50px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.h_icon_div:hover {
+  background-color: #e8f5fe;
+  border-radius: 50px;
+}
+
+.h_twitter_icon {
+  height: 1.56rem;
+  width: 100%;
+}
+
+.h_menu_icon {
+  width: 100%;
+  height: 52px;
+}
+
+.h_menu_icon_wrap {
+  width: fit-content;
+  display: flex;
+  align-items: center;
+  padding: 12px 13px;
+  cursor: pointer;
+}
+
+.h_menu_icon_wrap:hover {
+  background-color: #e6e7e7;
+  border-radius: 50px;
+}
+
+.h_menu_icon_width {
+  display: flex;
+  align-items: center;
+}
+
+.item_heading {
+  width: fit-content;
+  margin: 0 20px 0 16px;
+}
+
+.item_heading > h1 {
+  font-size: 18px;
+  font-weight: normal;
+  color: #0f1419;
+  overflow-wrap: break-word;
+  font-family: TwitterChirp, -apple-system, BlinkMacSystemFont, "Segoe UI",
+    Roboto, Helvetica, Arial, sans-serif;
+}
+
+.login_button_container_tweet {
+  width: 208px;
+  height: 47px;
+  border: none;
+  border-radius: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 6px;
+  margin-bottom: 6px;
+  cursor: pointer;
+}
+
+.login_button_container_user {
+  width: 225px;
+  height: 57px;
+  border: none;
+  border-radius: 50px;
+  display: flex;
+  align-items: center;
+  margin-top: 48px;
+  margin-bottom: 6px;
+  cursor: pointer;
+  transition: 0.2s ease-in-out;
+}
+
+.login_button_container_user:hover {
+  background-color: #f0f0f0;
+  transition: 0.2s ease-in-out;
+}
+
+.user_button_container_wrapper {
+  width: 100%;
+}
+
+.userdp {
+  width: 37px;
+  height: 37px;
+  margin-right: 8px;
+  border-radius: 50px;
+  display: flex;
+  justify-content: right;
+}
+
+.user_dp_div {
+  width: 25%;
+}
+
+.dot_icon_div {
+  width: 40%;
+  display: flex;
+  justify-content: right;
+  align-items: center;
+}
+
+.user_button {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 12px;
+  width: 100%;
+}
+
+.dot_icon {
+  width: 24px;
+}
+
+/* ---> Feeds <---*/
+
+.feeds_container {
+  width: 598px;
+  border-right: 1px solid #eff3f4;
+  position: relative;
+}
+
+.feed_header_container {
+  width: 100%;
+  height: 53px;
+  font-size: 15px;
+}
+
+.feed_header_container_wrapper {
+  height: 53px;
+  padding: 0px 16px;
+  margin: 0 auto;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.feed_header_heading {
+  width: 510px;
+  height: 100%;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+}
+
+.heading_container {
+  width: 100%;
+}
+
+.feed_heading {
+  width: 100%;
+  line-height: 24px;
+  font-size: 18px;
+  color: rgb(15, 20, 25);
+  font-weight: 700;
+  font-family: TwitterChirp, -apple-system, BlinkMacSystemFont, "Segoe UI",Roboto, Helvetica, Arial, sans-serif;
+  overflow-wrap: break-word;
+}
+
+.feed_header_icon {
+  width: 56px;
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.star_icon_div {
+  width: 100%;
+  height: fit-content;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.star_icon {
+  width: 20px;
+  height: 20px;
+}
+
+.add_tweet_container {
+  width: 100%;
+  min-height: 157px;
+  border-bottom: 1px solid #eff3f4;
+}
+
+.add_tweet_container_wrapper {
+  width: 100%;
+  height: 157px;
+  padding: 6px 16px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.add_tweet_container_content {
+  height: 100%;
+  display: flex;
+}
+
+.add_tweet_container_user-side {
+  margin-right: 12px;
+  margin-top: 3px;
+}
+
+.add_tweet_container_add-tweet {
+  flex: 0.98;
+}
+
+.userdp_tweet_container {
+  width: 52px; 
+  height: 52px;
+
+}
+
+.userdp_tweet {
+  width: 47px;
+  height: 47px;
+  border-radius: 50px;
+}
+
+.add_tweet_input {
+   height: 55.97px;
+   display: flex;
+   align-items: center;
+}
+
+.add_tweet_input input {
+  width: 100%;
+  min-height: 27.99px;
+  font-size: 18px;
+  line-height: 24px;
+  border: none;
+  outline: none;
+  flex-wrap: wrap;
+  overflow: hidden;
+}
+
+.add_tweet_button_div {
+  position: absolute;
+  top: 110px;
+  left: 70px;
+}
+
+.add_tweet_button_wrapper_div {
+  width: fit-content;
+  height: 23px;
+  border-radius: 50px;
+  margin-bottom: 12px;
+  display: flex;
+  align-items: center;
+  padding: 4px 13px;
+  cursor: pointer;
+}
+
+.add_tweet_button_wrapper_div:hover {
+  background-color: #e8f5fe;
+  
+}
+
+.add_tweet_button_content_div {
+  display: flex;
+  align-items: center;
+}
+
+.globe_icon_div {
+  display: flex;
+  align-items: center;
+  margin-right: 4px;
+}
+
+.globe_icon {
+  width: 13.99px;
+  height: 14px;
+  
+}
+
+.globe_text {
+  font-size: 12px;
+  font-family: TwitterChirp, -apple-system, BlinkMacSystemFont, "Segoe UI",Roboto, Helvetica, Arial, sans-serif;
+  color: rgb(29, 155, 240);
+}
+
+.att_icons_div {
+  position: absolute;
+  width: 492px;
+  height: 48px;
+  top: 150px;
+  display: flex;
+  justify-content: space-between;
+  border-top: 1px solid rgb(239, 243, 244);
+  padding-top: 14px;
+}
+
+.att-icons-div-wrapper {
+  width: fit-content;
+  display: flex;
+}
+
+.att_icn_div {
+  height: 33.77px;
+  width: 33.77px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.att_icn_div:hover {
+  border-radius: 50px;
+  background-color: #e8f5fe;
+}
+
+.att_icon_pic {
+  width: 22px;
+  height: 19.67px;
+}
+
+.tweet {
+  width: 80px;
+  height: 38px;
+  border: none;
+  border-radius: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  position: absolute;
+  left: 418px;
+  top:10px;
+  font-size: 2px;
+}
+
+.a_s_v {
+  font-size: 13px;
+}

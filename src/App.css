@@ -1,0 +1,495 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: #FFFFFF;
+  font-family: TwitterChirp, Verdana, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+}
+
+/* ===> Login-Page <=== */
+
+.login_page {
+  max-width: 1440px;
+}
+
+.login_cover_form {
+  width: 100%;
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+/* ---> login_form <---*/
+
+.login_form {
+  min-width: 620px;
+  max-width: 760px;
+  padding: 1rem;
+  background: #FFFFFF;
+}
+
+
+.login_container_content {
+  padding: 20px; 
+}
+
+.icon_div {
+  width: fit-content;
+  padding-bottom: 12px;
+}
+
+.twitter_form_icon {
+  height: 2.6rem;
+}
+
+.from_main_heading {
+  color: rgb(15, 20, 25);
+  line-height: 84px;
+  letter-spacing: -1.2px;
+  font-family: TwitterChirpExtendedHeavy, Verdana, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  font-size: 64px;
+  margin-top: 48px;
+  margin-bottom: 48px;
+}
+
+.from_second_heading{
+  margin-bottom: 32px;
+  color: rgb(15, 20, 25);
+  letter-spacing: -0.8px;
+  line-height: 36px;
+  font-size: 31px;
+  font-weight: 700;
+  font-family: TwitterChirpExtendedHeavy, Verdana, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  overflow-wrap: break-word;
+  white-space: pre-wrap;
+  position: relative;
+}
+
+/* -->login_buttons<-- */
+
+.login_button_container {
+  width: 300px;
+  height: 40px;
+  border: 1.8px solid rgb(207, 217, 222);
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 8px;
+  margin-bottom: 8px;
+  cursor: pointer;
+}
+
+.google_login_button_container {
+  width: 300px;
+  height: 38px;
+  border: 1.8px solid rgb(207, 217, 222);
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.login_button_container_wrapper {
+  width: 90%;
+  margin: 0 auto;
+}
+
+.login_button_container_content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.g_s_h {
+  font-size: 13px;
+  font-weight: 600;
+  /* font-family: TwitterChirp, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; */
+  letter-spacing: 0.1px;
+  color: #5b6164;
+}
+
+.a_s_h {
+  font-size: 13.5px;
+  font-weight: 600;
+  /* font-family: TwitterChirp, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; */
+}
+.g_s_h_a {
+  font-size: 14px;
+  font-weight: 600;
+  margin-top: 66px;
+  margin-left: 5px;
+  margin-bottom: 20px;
+}
+
+.dot_span {
+  width: 6px;
+  height: 6px;
+  border: none;
+  border-radius: 50px;
+  background-color: black;
+  position: absolute;
+  top: 25px;
+  left: 303px;
+}
+
+.login_input_img {
+  width: 18px;
+  height: 19px;
+  margin-right: 5px;
+  display: flex;
+  align-items: center;
+}
+.apple_input_img {
+  width: 19px;
+  height: 19px;
+  margin-right: 5px;
+}
+
+.display_none_img {
+  display: none;
+}
+
+.L_B_T {
+  font-weight: 300;
+  font-size: 14px;
+}
+
+.or_borders {
+  width: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 4px 0px;
+}
+
+.or_border_left {
+  border-bottom: 1px solid rgb(229, 232, 232);
+  width: 150px;
+  margin-right: 10px;
+}
+
+.or_border_right {
+  border-bottom: 1px solid rgb(229, 232, 232);
+  width: 150px;
+  margin-left: 10px;
+}
+
+.blue {
+  background-color: #1d9bf0;
+  color: #ffffff;
+  border: none;
+  margin-bottom: 8px;
+  transition: 0.2s ease-in-out;
+}
+
+.blue:hover {
+  background-color: #1a8cd8;
+  transition: 0.2s ease-in-out;
+}
+
+.para {
+  color: rgb(83, 100, 113);
+  line-height: 12px;
+  font-size: 11px;
+  font-weight: 500;
+  font-family: TwitterChirp, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  max-width: 330px;
+  margin-bottom: 20px;
+  margin-left: 5px;
+}
+
+.para > span {
+  color: rgb(29, 155, 240);
+}
+
+.font {
+ color: rgb(29, 155, 240);
+}
+
+/* ---> login_cover <---*/
+
+
+.login_cover {
+  min-width: 50vw;
+  min-height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(107, 201, 251);
+  flex: 1;
+}
+
+.login_cover_img {
+  height: 100%;
+  width: 100%;
+  background: url("https://abs.twimg.com/sticky/illustrations/lohp_en_1302x955.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  background-color: rgb(107, 201, 251);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.twitter_icon_div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+  max-width: 100%;
+}
+
+.white_logo {
+  height: 330px;
+}
+
+/* ---> Footer <--- */
+
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 12px 18px;
+  flex-wrap: wrap;
+}
+
+.footer_item {
+  font-size: 12px;
+  line-height: 16px;
+  font-weight: 400;
+  margin: 4px 0px;
+  letter-spacing: -0.01px;
+  word-spacing: 0.1px;
+  text-transform: capitalize;
+  overflow-wrap: break-word;
+  cursor: pointer;
+  color: rgb(83, 100, 113);
+  padding-right: 12px;
+
+}
+
+footer > p {
+  font-size: 13px;
+  line-height: 16px;
+  font-weight: 400;
+  margin: 4px 0px;
+  text-transform: capitalize;
+  overflow-wrap: break-word;
+  cursor: pointer;
+  color: rgb(83, 100, 113);
+  padding-right: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+footer > p > span {
+  font-size: 11px;
+  margin-right: 2px;
+
+}
+
+/* ---> Popup Screen <--- */
+
+.top_pop{
+  position: fixed;
+  height: 100%;
+  width: 100vw;
+  top: 0;
+  display: none;
+}
+
+.postion_pop_up {
+  position: relative; 
+  height: 100vh;
+}
+
+.pop_up {
+  background-color: rgba(0, 0, 0, 0.4);
+  opacity: 2;
+  height: 100vh;
+}
+
+.pop_up_win {
+  position: absolute;
+  top: 25%;
+  right: 28%;
+  max-width: 50%;
+  border-radius: 10px;
+  background-color: #FFFFFF;
+  padding:0px 20px;
+  
+}
+
+.pop_up_win  header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 53px;
+  margin: 0 auto;
+}
+
+.popup_icon {
+  flex: 1.1; 
+}
+
+.cross_icon_div {
+  flex: 1;
+} 
+
+.cross_icon {
+  width: 11px;
+  height: 11px;
+  cursor: pointer;
+}
+
+.twitter_icon {
+  height: 32px;
+}
+
+.form_wrapper {
+  max-width: 546px;
+  height: 100%;
+  margin: 0 auto;
+}
+
+.form_heading {
+  color: rgb(15, 20, 25);
+  line-height: 28px;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.inputs_container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.form_input {
+  width: 100%;
+  height: 56px;
+  padding: 12px 8px;
+  margin: 14px 0px;
+  border: 1.8px solid rgb(207, 217, 222);
+  border-radius: 3px;
+  outline-color: rgb(29, 155, 240);
+  font-size: 15px;
+}
+
+.submit_form {
+  border-radius: 50px;
+  width: 100%;
+  height: 48px;
+  padding: 12px 8px;
+  margin: 14px 0px;
+  border: none;
+  outline: none;
+  font-size: 15px;
+  background-color: #878a8c;
+  color: #FFFFFF;
+  font-weight: 600;
+  cursor: pointer;
+  transition: 0.2s ease-in-out;
+}
+
+.submit_form:hover {
+  background-color: rgb(29, 155, 240);
+  transition: 0.2s ease-in-out;
+}
+
+
+@media screen and (max-width: 1040px) {
+
+.login_page {
+  max-width: 1040px;
+}
+.login_cover_form {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.login_form {
+  min-width: 45vw;
+  max-width: 600px;
+  padding: 1rem;
+  background: #FFFFFF;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.login_cover {
+  min-width: 100%;
+  min-height: fit-content;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(107, 201, 251);
+  flex: 1;
+}
+
+.login_cover_img {
+  width: 100%;
+  padding: 32px;
+  background: url("https://abs.twimg.com/sticky/illustrations/lohp_en_1302x955.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  background-color: rgb(107, 201, 251);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.white_logo {
+  height: 84px;
+}
+}
+
+@media screen and (max-width: 550px) {
+  .from_main_heading {
+    color: rgb(15, 20, 25);
+    line-height: 46px;
+    letter-spacing: -1.2px;
+    font-family: TwitterChirpExtendedHeavy, Verdana, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    font-size: 40px;
+    margin-top: 48px;
+    margin-bottom: 40px;
+  }
+  
+  .from_second_heading{
+    margin-bottom: 32px;
+    color: rgb(15, 20, 25);
+    letter-spacing: -0.8px;
+    line-height: 36px;
+    font-size: 23px;
+    font-weight: 700;
+    font-family: TwitterChirpExtendedHeavy, Verdana, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    overflow-wrap: break-word;
+    white-space: pre-wrap;
+  }
+
+  .dot_span {
+    width: 5px;
+    height: 5px;
+    border: none;
+    border-radius: 50px;
+    background-color: black;
+    position: absolute;
+    top: 25px;
+    left: 222px;
+  }
+}
+
